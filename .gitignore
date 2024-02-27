@@ -1,0 +1,7 @@
+/runs
+/original_images
+/images
+/.vscode
+*.ipynb
+/models/walkability_*
+/data

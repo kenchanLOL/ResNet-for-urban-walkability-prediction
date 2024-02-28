@@ -4,4 +4,4 @@
 /.vscode
 *.ipynb
 /models/walkability_*
-/data
+/data/_*

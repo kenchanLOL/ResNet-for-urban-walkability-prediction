@@ -8,7 +8,7 @@ A light-weighted ResNet modification for building reward model on image-based RL
 3. download resnet50 pretrained weight and put it int ``` models/ ``` folder
 4. train the model using the commend
 ```
-python trainer.py -- train data/train.csv -- test data/test.csv --val data/val.csv --resnet models/resnet50_best.pth -- batch_size 8 --num_workers 4 --num_epoch 50 --lr 1e-3 --eval_ep 8 --grad_accum 8
+python train.py --train data/train_judgements.csv --test data/test_judgements.csv --val data/validation_judgements.csv --resnet models/resnet50_best.pth --batch_size 8 --num_workers 4 --num_epoch 50 --lr 1e-3 --eval_ep 8 --grad_accum 8
 ```
 5. run the visualization code
 ```

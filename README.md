@@ -11,10 +11,12 @@ Distribution of overall and individual images
 ![individual_dist](https://user-images.githubusercontent.com/55791584/205874685-b50f4c0a-c369-40e2-9acc-ade74322328e.png)
 
 ## Part 4: Results and Visualization with CAM
+After undergoing fine-tuning for 50 epochs on a compact dataset with a low image-to-preference ratio, comprising 10,000 preferences across 3,000 images (averaging three comparisons per image), the model attained 95% of the desired ELO performance. GradCAM visualizations reveal that the model has adeptly internalized human perceptual patterns related to walkability, specifically honing in on key pedestrian infrastructures such as traffic lights, fences, and bridges, as well as identifying impediments like vehicles and unauthorized street blockages by goods.
+
 | Model | Accuracy |
 | ----------- | ----------- |
-| Elo Baseline | 77.8% |
-| ResNet50 | 0.73.8% |
+| Elo Score (Baseline) | 77.8% |
+| ResNet50 | 73.8% |
 
 ### ROC
 ![image](https://github.com/kenchanLOL/ResPrefNet/assets/55791584/efb5abdf-0d90-4a76-af4e-bce0af608430)

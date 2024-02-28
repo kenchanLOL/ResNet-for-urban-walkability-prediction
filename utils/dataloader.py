@@ -1,4 +1,3 @@
-import json
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
@@ -6,7 +5,6 @@ import shutil
 import matplotlib.pyplot as plt
 
 import torch
-import torchvision
 from torch.utils.data import Dataset, DataLoader
 from torchvision.transforms import v2
 

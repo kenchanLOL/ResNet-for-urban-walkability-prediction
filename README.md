@@ -1,5 +1,6 @@
 # ResPrefNet
 A light-weighted ResNet modification for building reward model on image-based RLHF pipeline
+![image](https://github.com/kenchanLOL/ResPrefNet/assets/55791584/1ab770bb-c965-4b2b-a9be-8ba8455e1e54)
 
 ## Usage
 

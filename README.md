@@ -1,6 +1,20 @@
 # ResPrefNet
 A light-weighted ResNet modification for building reward model on image-based RLHF pipeline
 
+## Usage
+
+1. place your images in ``` images/ ``` folder and rename them as ```image_{index}.jpg ```
+2. place your preference labels in ``` data/ ``` folder
+3. download resnet50 pretrained weight and put it int ``` models/ ``` folder
+4. train the model using the commend
+```
+python trainer.py -- train data/train.csv -- test data/test.csv --val data/val.csv --resnet models/resnet50_best.pth -- batch_size 8 --num_workers 4 --num_epoch 50 --lr 1e-3 --eval_ep 8 --grad_accum 8
+```
+5. run the visualization code
+```
+python visualize.py
+```
+
 ## Sample Case : HK walkability 
 
 ## Data Visualization
